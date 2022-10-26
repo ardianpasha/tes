@@ -1,0 +1,56 @@
+##1
+
+diketahui f EQUAL TO resultan gaya
+diketahui m EQUAL TO massa benda
+diketahui a EQUAL TO percepatan benda
+diketahui f EQUAL TO m TIMES a
+
+INPUT m EQUAL TO 600
+INPUT a EQUAL TO 2
+
+PRINT f
+
+
+##2
+
+diketahui syarat tahun kabisat
+habis dibagi 4 dan tidak habis dibagi 100
+habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400
+x EQUAL TO tahun
+
+INPUT x
+    IF x MODULO 4 EQUAL T0 0 AND x MODULO 100 NOT EQUAL TO 0
+        PRINT tahun kabisat
+    ELSE IF x MODULO 4 EQUAL TO 0 AND x MODULO 100 EQUAL TO 0 AND x MODULO 400 EQUAL TO 0
+        PRINT tahun kabisat
+    ELSE
+        PRINT bukan tahun kabisat
+
+
+##3
+diketahui x EQUAL TO jumlah pakaian yang akan dicuci foxie
+diketahui i EQUAL TO perulangan baju foxie
+
+INPUT x EQUAL TO 20
+
+FOR i EQUAL TO 1
+    i LESS THAN EQUAL TO x
+    i ++
+        PRINT i
+
+
+##4
+
+diketahui x EQUAL TO jumlah murid yang akan diperiksa
+diketahui y EQUAL TO kuku panjang
+diketahui i EQUAL TO nomor murid yang diperiksa
+
+INPUT x EQUAL TO 40
+
+FOR i EQUAL TO 1
+    i LESS THAN EQUAL TO x
+    i ++
+        IF i EQUAL TO y
+            PRINT guru menghukum murid ke i
+        ELSE
+            PRINT guru memuji murid ke i
